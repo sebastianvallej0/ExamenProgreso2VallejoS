@@ -7,7 +7,7 @@ public partial class ChistesPage : ContentPage
     public ChistesPage()
     {
         InitializeComponent();
-        ObtenerChiste(); // Al cargar la página
+        ObtenerChiste(); 
     }
 
     private async void ObtenerChiste()

@@ -2,59 +2,68 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ExamenProgreso2VallejoS.AboutPage"
              Title="About">
-    <Grid RowDefinitions="*,*"
-          ColumnDefinitions="*,*"
-          Padding="20"
-          RowSpacing="20"
-          ColumnSpacing="20">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="20">
+        <Grid RowDefinitions="Auto,Auto"
+              ColumnDefinitions="Auto,Auto"
+              RowSpacing="15"
+              ColumnSpacing="15">
 
-        <!-- Nombre -->
-        <Frame Grid.Row="0" Grid.Column="0"
-               BorderColor="Gray"
-               CornerRadius="10"
-               Padding="10"
-               HasShadow="False">
-            <StackLayout>
-                <Label Text="Nombre:" FontAttributes="Bold" />
-                <Label Text="Sebastián Vallejo" />
-            </StackLayout>
-        </Frame>
+            
+            <Frame Grid.Row="0" Grid.Column="0"
+                   BorderColor="Gray"
+                   CornerRadius="10"
+                   Padding="10"
+                   WidthRequest="140"
+                   HeightRequest="80"
+                   HasShadow="False">
+                <StackLayout>
+                    <Label Text="Nombre:" FontAttributes="Bold" FontSize="14"/>
+                    <Label Text="Sebastián Vallejo" FontSize="13"/>
+                </StackLayout>
+            </Frame>
 
-        <!-- Fecha de nacimiento -->
-        <Frame Grid.Row="0" Grid.Column="1"
-               BorderColor="Gray"
-               CornerRadius="10"
-               Padding="10"
-               HasShadow="False">
-            <StackLayout>
-                <Label Text="Fecha:" FontAttributes="Bold" />
-                <Label Text="01/01/2000" />
-            </StackLayout>
-        </Frame>
+            
+            <Frame Grid.Row="0" Grid.Column="1"
+                   BorderColor="Gray"
+                   CornerRadius="10"
+                   Padding="10"
+                   WidthRequest="140"
+                   HeightRequest="80"
+                   HasShadow="False">
+                <StackLayout>
+                    <Label Text="Fecha:" FontAttributes="Bold" FontSize="14"/>
+                    <Label Text="01/01/2000" FontSize="13"/>
+                </StackLayout>
+            </Frame>
 
-        <!-- Intereses -->
-        <Frame Grid.Row="1" Grid.Column="0"
-               BorderColor="Gray"
-               CornerRadius="10"
-               Padding="10"
-               HasShadow="False">
-            <StackLayout>
-                <Label Text="Intereses:" FontAttributes="Bold" />
-                <Label Text="Tecnología, videojuegos" />
-            </StackLayout>
-        </Frame>
+            
+            <Frame Grid.Row="1" Grid.Column="0"
+                   BorderColor="Gray"
+                   CornerRadius="10"
+                   Padding="10"
+                   WidthRequest="140"
+                   HeightRequest="80"
+                   HasShadow="False">
+                <StackLayout>
+                    <Label Text="Intereses:" FontAttributes="Bold" FontSize="14"/>
+                    <Label Text="Tecnología, juegos, Musica" FontSize="13"/>
+                </StackLayout>
+            </Frame>
 
-        <!-- Versión -->
-        <Frame Grid.Row="1" Grid.Column="1"
-               BorderColor="Gray"
-               CornerRadius="10"
-               Padding="10"
-               HasShadow="False">
-            <StackLayout>
-                <Label Text="Versión:" FontAttributes="Bold" />
-                <Label Text="1.0" />
-            </StackLayout>
-        </Frame>
+            
+            <Frame Grid.Row="1" Grid.Column="1"
+                   BorderColor="Gray"
+                   CornerRadius="10"
+                   Padding="10"
+                   WidthRequest="140"
+                   HeightRequest="80"
+                   HasShadow="False">
+                <StackLayout>
+                    <Label Text="Versión:" FontAttributes="Bold" FontSize="14"/>
+                    <Label Text="1.0" FontSize="13"/>
+                </StackLayout>
+            </Frame>
 
-    </Grid>
+        </Grid>
+    </StackLayout>
 </ContentPage>
