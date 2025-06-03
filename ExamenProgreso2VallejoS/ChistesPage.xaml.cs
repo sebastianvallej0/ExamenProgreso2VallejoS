@@ -1,8 +1,9 @@
 namespace ExamenProgreso2VallejoS;
 
-public partial class ChistesPgae : ContentPage
+
+public partial class ChistesPage : ContentPage
 {
-	public ChistesPgae()
+	public ChistesPage()
 	{
 		InitializeComponent();
 	}
