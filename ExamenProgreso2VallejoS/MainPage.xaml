@@ -1,22 +1,26 @@
-﻿
-    
-    <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-            x:Class="ExamenProgreso2VallejoS.MainPage"
-            Title="Inicio">
-    <StackLayout Padding="30" Spacing="20" VerticalOptions="Center">
-        <Label Text="Bienvenido a la aplicación de Sebastian Vallejo"
-              FontSize="22"
-              HorizontalOptions="Center"
-              HorizontalTextAlignment="Center"/>
-        <Image Source="smile.png"
-              HeightRequest="100"
-              HorizontalOptions="Center"/>
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamenProgreso2VallejoS.MainPage"
+             Title="Inicio">
+    <StackLayout Padding="30" Spacing="25" VerticalOptions="Center">
+        
+        <Image Source="sebastian.png"
+               HeightRequest="150"
+               HorizontalOptions="Center"/>
+
+        
+        <Label Text="Sebastián Vallejo"
+               FontSize="24"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"/>
+
+        
         <Button Text="Chistes"
-               Clicked="OnChistesClicked"/>
+                Clicked="OnChistesClicked"/>
+
         <Button Text="About"
-               Clicked="OnAboutClicked"/>
+                Clicked="OnAboutClicked"/>
+
     </StackLayout>
-        
-        
 </ContentPage>
