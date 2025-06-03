@@ -17,4 +17,6 @@
         <Button Text="About"
                Clicked="OnAboutClicked"/>
     </StackLayout>
+        
+        
 </ContentPage>
